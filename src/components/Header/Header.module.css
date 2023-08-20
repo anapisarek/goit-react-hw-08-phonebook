@@ -1,0 +1,9 @@
+.header {
+    background-color: #ffcad4;
+    box-shadow: 0px -3px 7px 9px rgba(164, 19, 60, 0.2);
+  }
+  
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }

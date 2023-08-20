@@ -1,0 +1,59 @@
+.wrapper {
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  
+  .phonebook-label-text {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .phonebook-input {
+    min-width: 200px;
+    min-height: 25px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: 2px solid #ffcad4;
+    border-radius: 10px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .phonebook-input:hover,
+  .phonebook-input:focus {
+    border-color: #a4133c;
+    box-shadow: 0px 0px 14px rgba(164, 19, 60, 1);
+  }
+  
+  .phonebook-form-btn {
+    display: block;
+    min-width: 120px;
+    min-height: 20px;
+    margin: 0 auto;
+    border: 2px solid #ffcad4;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #ffcad4;
+    cursor: pointer;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .phonebook-form-btn:hover,
+  .phonebook-form-btn:focus {
+    border-color: #a4133c;
+    color: #9b132d;
+    box-shadow: 0px 0px 14px rgba(164, 19, 60, 1);
+  }

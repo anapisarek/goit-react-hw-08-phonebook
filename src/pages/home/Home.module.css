@@ -1,0 +1,74 @@
+.greeting-wrap {
+    position: relative;
+    background-image: url('../../Bgr-min.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .greeting-text {
+    position: absolute;
+    z-index: 1;
+    text-align: start;
+    max-width: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    top: 44%;
+    left: 36.5%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (min-width: 450px) {
+    .greeting-text {
+      left: 37%;
+      max-width: 150px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .greeting-text {
+      left: 40%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .greeting-text {
+      left: 43.5%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .greeting-text {
+      left: 45.5%;
+    }
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  /*
+  320px: 
+    top: 44%;
+    left: 36.5%;
+    max-width: 100px;
+    font-size: 10px; 
+  
+  450px: 
+    left: 37%;
+    max-width:150px;
+    font-size:14px
+    
+  600px:
+    left: 40%
+  
+  768px:
+    left: 43.5%
+  
+  1200 px:
+    left: 45.5%
+    */

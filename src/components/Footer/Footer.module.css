@@ -1,0 +1,18 @@
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ffcad4;
+    box-shadow: 0px 3px 7px 9px rgba(164, 19, 60, 0.2);
+    flex-shrink: 0;
+  }
+  
+  .footer-text {
+    color: #a4133c;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  
+  .footer-text:not(:last-child) {
+    margin-bottom: 10px;
+  }
